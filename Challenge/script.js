@@ -30,11 +30,12 @@ const rent = {
 
 // You can change below however you want
 
+const rands='R'
 const taxAsDecimal = parseFloat (tax[913]) / 100
 const startingAfterTax = ((salary).toFixed(2)) * ((1-taxAsDecimal))
 const balance = rent[`${"large-apartment"}`] + expenses.food + expenses.transport
 const total=((startingAfterTax - balance).toFixed(2))
-console.log(total)
+console.log(rands ,total)
 
 
 
